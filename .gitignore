@@ -1,0 +1,8 @@
+# PHPStorm Setting files
+/.idea
+
+# vendor path
+/vendor
+
+# cache files
+**/*.cache
