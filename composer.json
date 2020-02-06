@@ -1,0 +1,32 @@
+{
+  "name": "kimjangwook/date-util",
+  "type": "library",
+  "description": "Commonly use for control date when I write some code",
+  "keywords": ["date"],
+  "homepage": "https://github.com/kimjangwook/date-util.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jangwook Kim",
+      "email": "kim.jangwook.1029@gmail.com",
+      "homepage": "https://medium.com/@kim.jangwook",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "KimJangwook\\DateUtil\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "KimJangwook\\Test\\": "test/"
+    }
+  }
+}
